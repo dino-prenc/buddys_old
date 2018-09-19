@@ -1,0 +1,176 @@
+﻿body {
+    background-image: url("img/bg.jpg");
+    font-family:Calibri, Arial, Constantia;
+}
+
+#wrapper {
+    width:1024px;
+    height: auto;
+    background-color:white;
+    margin:auto;
+    background-color: #ffedbf;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#navigacija {
+    width:1024px;
+    height:75px;
+    background-image: url(img/cover1.png);
+    text-align:center;
+    margin:auto;
+    background-color:#ffedbf;
+    padding-top:2px;
+    border-bottom: solid 2px #273a88;
+}
+
+#navigacija ul {
+    list-style-type:none;
+    padding-top:3px;
+    margin:auto;
+    overflow:hidden;
+}
+
+#navigacija li {
+    float:left;
+    margin-left:45px;
+}
+
+#navigacija a:link, a:visited {
+    text-align:center;
+    font-size:20px;
+    display:block;
+    width:170px;
+    height: 45px;
+    font-weight:bold;
+    color:#273a88;
+    text-decoration:none;
+    border:solid #273a88 1px;
+    padding-top:15px;
+    text-transform:uppercase;
+    background-color:#fdb513;
+    border-radius:8px;
+}
+
+#navigacija a:hover {
+    background-color: #fdb513;
+    border: solid white 2px;
+    color: white;
+}
+
+
+
+table {
+    border-collapse:collapse;
+    text-align:left;
+    color: #273a88;
+    font-weight:bold;
+}
+
+table tr{
+    height:30px;
+    font-size:18px;
+}
+
+
+tbody tr:hover {
+    font-size: 19px;
+    background-color: #fdb513;
+}
+
+thead {
+    border-bottom:solid 2px #273a88;
+}
+
+tbody td{
+    width:500px;
+}
+
+.t {
+    background-color:#dbe2ff;
+}
+
+tfoot tr {
+    height: 45px;
+}
+
+tfoot tr td {
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    text-transform:uppercase;
+    background-color: #fdb513;
+}
+
+tfoot tr:hover {
+    text-decoration:underline;
+}
+
+#map{
+    float:left;
+    height:500px;
+    width:1024px;
+}
+
+p {
+    padding-left: 25px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h1 a{
+    text-decoration:none;
+}
+
+
+h1, h2 {
+    padding-left: 25px;
+    color: #273a88;
+}
+
+.tel a {
+    text-decoration:none;
+    font-weight: bold;
+}
+
+#lok_naslov {
+    text-align:center;
+    font-size: 40px;
+    color: #273a88;
+}
+
+
+#matulji {
+	width: 510px;
+	float: left;
+	padding-top: 20px;
+    text-align: center;
+}
+
+#rijeka {
+    width:510px;
+    float:right;
+    padding-top: 20px;
+    text-align:center;
+}
+
+
+
+
+footer {
+    width:1024px;
+    height:60px;
+    margin:auto;
+    text-align:center;
+    padding-top:2px;
+    border-radius:20px;
+    background-color: #ffedbf;
+    background-image:url(img/foot_bg.png);
+}
+
+footer p {
+    text-align:center;
+    font-family:Calibri, Arial, Constantia;
+}
